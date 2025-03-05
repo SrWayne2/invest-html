@@ -31,9 +31,10 @@ footer {
 }
 
 img {
-    max-width: 80%; 
-    height: auto;
-    display: block;
-    margin: 20px auto;
+    max-width: 100%;  /* Asegura que la imagen no sea más grande que el contenedor */
+    height: auto;  /* Mantiene la proporción original de la imagen */
+    display: block; /* Evita espacios en línea extra */
+    margin: 0 auto; /* Centra las imágenes */
+    width: 60%; /* Ajusta el ancho según necesites (puedes cambiar el porcentaje) */
 }
 
